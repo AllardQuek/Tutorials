@@ -1,0 +1,34 @@
+print(soup.prettify())
+list_items = soup.find_all('li')
+
+titles = soup.find_all('a', {"title": True, "href": True})
+script_tags = soup.find_all('script', {"some-data-attribute": True})
+if div.has_attr('title')
+
+soup = BeautifulSoup(page.content, 'lxml')
+
+for link in hash_links:
+    print(link)
+
+
+parse_page_and_return_hash_links(emotet_page)
+write_hashes_to_file(hash_links)
+check_next_page()
+
+
+
+def check_next_page(soup):
+    next_page = soup.find('a', {'href': lambda L: L and L.startswith('/listMalware.php?page=')})
+    if next_page.text == 'Next':
+        next_page_url = base_url + next_page['href']
+        print("NEXT URL", next_page_url)
+        parse_page(next_page_url)
+    else:
+        print("NO MORE NEXT PAGES")
+
+
+write_log = f.write("ONE WRITE COMPLETED ONE WRITE COMPLETED ONE WRITE COMPLETED")
+
+print(json_res)
+for h in hashes:
+    print(h)

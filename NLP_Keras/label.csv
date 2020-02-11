@@ -1,0 +1,17 @@
+malware,ioc_type,value
+Satori,port,37215
+Satori,port,37215
+Satori,port,37215
+Satori,port,37215
+Satori,port,37215
+Satori,port,37215
+Satori,port,37215
+Satori,port,37215
+Satori,port,37215
+Satori,port,8080
+Satori,vulnerability,CVE-2017-18046
+Satori,ip,185.62.188.88
+Emotet,ip,185.186.1.131
+Okiru,port,52869
+Mirai 2019,port,9527
+Wicked,port,8080
